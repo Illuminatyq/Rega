@@ -1,20 +1,11 @@
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.PDPageContentStream;
-import org.apache.pdfbox.pdmodel.font.PDType1Font;
-
 import java.io.File;
 import java.io.IOException;
 
-import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 
 public class ZvenoRegistrationTest {
@@ -79,26 +70,5 @@ public class ZvenoRegistrationTest {
         // Согласие с условиями
         $("input[aria-checked='false']").click();
         $("span[class='button__text']").click();
-    }
-
-    private String generatePdfFile(String fileName) throws IOException {
-        // Метод для генерации PDF-файла
-        PDDocument document = new PDDocument();
-        PDPage page = new PDPage();
-        document.addPage(page);
-
-        try (PDPageContentStream contentStream = new PDPageContentStream(document, page)) {
-            contentStream.beginText();
-            contentStream.setFont(PDType1Font.HELVETICA, 12);
-            contentStream.newLineAtOffset(100, 700);
-            contentStream.showText("This is a test PDF file.");
-            contentStream.endText();
-        }
-
-        String filePath = "src/test/java/" + fileName; // Путь к файлу в директории ресурсов
-        document.save(filePath);
-        document.close();
-
-        return filePath;
     }
 }
