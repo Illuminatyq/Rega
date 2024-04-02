@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourcesfile1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourcesfile2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainfile1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainfile2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FluentWebElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZvenoRegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/file1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/file2.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="работает!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -51,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.ZvenoRegistrationTest.executor": "Debug",
-    "JUnit.ZvenoRegistrationTest.testRegistrationRussiaIP.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/AQA/untitled1/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.ZvenoRegistrationTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ZvenoRegistrationTest.testRegistrationRussiaIP.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;masters&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/AQA/untitled1/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -122,8 +107,34 @@
       <option name="presentableId" value="Default" />
       <updated>1711888792067</updated>
       <workItem from="1711888793093" duration="24054000" />
-      <workItem from="1711960591586" duration="11796000" />
+      <workItem from="1711960591586" duration="21834000" />
+      <workItem from="1712044147222" duration="3091000" />
     </task>
+    <task id="LOCAL-00001" summary="rjvvb">
+      <option name="closed" value="true" />
+      <created>1711981782945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711981782945</updated>
+    </task>
+    <task id="LOCAL-00002" summary="работает!">
+      <option name="closed" value="true" />
+      <created>1712050022141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712050022141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="работает!">
+      <option name="closed" value="true" />
+      <created>1712050049408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712050049408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="rjvvb" />
+    <MESSAGE value="работает!" />
+    <option name="LAST_COMMIT_MESSAGE" value="работает!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

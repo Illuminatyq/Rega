@@ -3,21 +3,21 @@ import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
 
+import java.io.File;
 import java.io.IOException;
 
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 
 public class ZvenoRegistrationTest {
-
-    public ZvenoRegistrationTest() throws IOException {
-    }
 
     @BeforeAll
     public static void setup() {
@@ -64,37 +64,17 @@ public class ZvenoRegistrationTest {
     }
 
     private void generateAndAttachFiles() throws IOException {
+        // Создать экземпляр класса PdfGenerator
+        PdfGenerator pdfGenerator = new PdfGenerator();
+
         // Сгенерировать PDF-файлы
-        String filePath1 = generatePdfFile("file1.pdf");
-        String filePath2 = generatePdfFile("file2.pdf");
+        String filePath1 = pdfGenerator.generatePdfFile("file1.pdf");
+        String filePath2 = pdfGenerator.generatePdfFile("file2.pdf");
 
-        // Прикрепить файлы
-        attachFileToDynamicInput(filePath1, filePath2);
-    }
+        $$("input[type='file']").get(0).uploadFile(new File(filePath1)); // Загружает файл FilePath1 в первый input
+        $$("input[type='file']").get(1).uploadFile(new File(filePath2)); // Загружает файл FilePath2 во второй input
 
-    private void attachFileToDynamicInput(String filePath1, String filePath2) {
-        // Находим элементы input по их атрибутам accept и тексту метки "Прикрепить"
-        ElementsCollection fileInputs = $$("input[type='file']");
-        ElementsCollection labels = $$(".label-container__text");
-
-        // Ищем элементы, которые соответствуют меткам "Свидетельство о гос.регистрации" и "Свидетельство о постановке на нал.учет"
-        SelenideElement input131 = findInputByLabel(fileInputs, labels, "Свидетельство о гос.регистрации");
-        SelenideElement input138 = findInputByLabel(fileInputs, labels, "Свидетельство о постановке на нал.учет");
-
-        // Загружаем файлы
-        input131.uploadFromClasspath(filePath1);
-        input138.uploadFromClasspath(filePath2);
-    }
-
-    private SelenideElement findInputByLabel(ElementsCollection fileInputs, ElementsCollection labels, String labelText) {
-        // Поиск метки с заданным текстом
-        SelenideElement label = labels.find(text(labelText));
-        // Находим родительский элемент метки (для него есть атрибут for, который ссылается на id input)
-        String forAttribute = label.attr("for");
-        // Находим input, который соответствует метке
-        return fileInputs.find(attribute("id", forAttribute));
-    }
-
+        }
     private void submitForm() {
         // Согласие с условиями
         $("input[aria-checked='false']").click();
@@ -115,7 +95,7 @@ public class ZvenoRegistrationTest {
             contentStream.endText();
         }
 
-        String filePath = STR."src/main/resources/\{fileName}"; // Путь к файлу в директории ресурсов
+        String filePath = "src/test/java/" + fileName; // Путь к файлу в директории ресурсов
         document.save(filePath);
         document.close();
 
