@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="rjvvb">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PdfGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ZvenoRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZvenoRegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/file1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/file1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/file2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/file2.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="работает!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +108,7 @@
       <updated>1711888792067</updated>
       <workItem from="1711888793093" duration="24054000" />
       <workItem from="1711960591586" duration="21834000" />
-      <workItem from="1712044147222" duration="2715000" />
+      <workItem from="1712044147222" duration="3091000" />
     </task>
     <task id="LOCAL-00001" summary="rjvvb">
       <option name="closed" value="true" />
@@ -124,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711981782945</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="работает!">
+      <option name="closed" value="true" />
+      <created>1712050022141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712050022141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="работает!">
+      <option name="closed" value="true" />
+      <created>1712050049408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712050049408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rjvvb" />
-    <option name="LAST_COMMIT_MESSAGE" value="rjvvb" />
+    <MESSAGE value="работает!" />
+    <option name="LAST_COMMIT_MESSAGE" value="работает!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
