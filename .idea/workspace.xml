@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="работает!">
+    <list default="true" id="39a45fab-4218-4a66-a782-1b61917f4a06" name="Changes" comment="Убрал лишнее, небольшие фиксы">
+      <change afterPath="$PROJECT_DIR$/src/test/java/KgzIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KgzOOO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KzIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KzOOO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RussiaOOO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/file3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FluentWebElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ZvenoRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZvenoRegistrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/file1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/file1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/file2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/file2.pdf" afterDir="false" />
     </list>
@@ -48,8 +49,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.ZvenoRegistrationTest.executor": "Run",
+    "JUnit.KgzIP.executor": "Debug",
+    "JUnit.KgzOOO.executor": "Debug",
+    "JUnit.KzIP.executor": "Debug",
+    "JUnit.KzOOO.executor": "Debug",
+    "JUnit.RussiaOOO.executor": "Debug",
+    "JUnit.ZvenoRegistrationTest.executor": "Debug",
     "JUnit.ZvenoRegistrationTest.testRegistrationRussiaIP.executor": "Debug",
+    "JUnit.java in untitled1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,31 +76,62 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZvenoRegistrationTest">
-    <configuration name="ZvenoRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.java in untitled1">
+    <configuration name="KgzIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZvenoRegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="KgzIP" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZvenoRegistrationTest.testRegistrationRussiaIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KgzOOO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZvenoRegistrationTest" />
-      <option name="METHOD_NAME" value="testRegistrationRussiaIP" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="KgzOOO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KzIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KzIP" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KzOOO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KzOOO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in untitled1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZvenoRegistrationTest" />
-        <item itemvalue="JUnit.ZvenoRegistrationTest.testRegistrationRussiaIP" />
+        <item itemvalue="JUnit.java in untitled1" />
+        <item itemvalue="JUnit.KgzOOO" />
+        <item itemvalue="JUnit.KgzIP" />
+        <item itemvalue="JUnit.KzOOO" />
+        <item itemvalue="JUnit.KzIP" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +155,7 @@
       <updated>1711888792067</updated>
       <workItem from="1711888793093" duration="24054000" />
       <workItem from="1711960591586" duration="21834000" />
-      <workItem from="1712044147222" duration="5507000" />
+      <workItem from="1712044147222" duration="7943000" />
     </task>
     <task id="LOCAL-00001" summary="rjvvb">
       <option name="closed" value="true" />
@@ -151,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712050506669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Убрал лишнее, небольшие фиксы">
+      <option name="closed" value="true" />
+      <created>1712055477003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712055477003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +207,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rjvvb" />
     <MESSAGE value="работает!" />
-    <option name="LAST_COMMIT_MESSAGE" value="работает!" />
+    <MESSAGE value="Убрал лишнее, небольшие фиксы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал лишнее, небольшие фиксы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
